@@ -15,17 +15,22 @@ struct WelcomePage: View {
           .frame(width: 150, height: 150)
           .foregroundStyle(.tint)
         
-        Image(systemName: "figure.2.and.child.holdinghands")
+//        Image(systemName: "figure.2.and.child.holdinghands")
+        Image("peach_Gamst")
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(height: 150)
+          .cornerRadius(30)
           .font(.system(size: 70))
           .foregroundStyle(.white)
       }
       
-      Text("Welcome to MyApp")
+      Text("황도 인직")
         .font(.title)
         .fontWeight(.semibold)
         .padding(.top)
       
-      Text("Description text")
+      Text("세상에서 제일 사랑스러운 남자")
         .font(.title2)
     }
 //    .border(.orange, width: 1.5)

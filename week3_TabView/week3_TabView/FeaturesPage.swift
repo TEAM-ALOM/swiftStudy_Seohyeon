@@ -16,10 +16,10 @@ struct FeaturesPage: View {
         .padding(.bottom)
         .padding(.top, 100)
       FeatureCard(iconName: "person.2.crop.square.stack.fill",
-                              description: "A multiline description about a feature paired with the image on the left.")
+                              description: "인직이는 황도를 잘 먹고 게임도 잘 하고 축구를 좋아합니다")
       
       FeatureCard(iconName: "quote.bubble.fill",
-                  description: "Short summary")
+                  description: "감랑해 ♡")
       
       Spacer()
     }
